@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* NAVIGATION BAR */
+.navbar{
+    padding: 6px 0px 0px 0px;
+}
+.navbar-brand img{
+    width: 71px;
+}
+input.search-bar{
+    font-size: 15px !important;
+    height: 37px;
+    width: 180px;
+    padding: 0px 55px 0px 23px;
+    font-size: 0.85rem !important;
+    border: 1px solid #c3bfbc;
+    outline: none;
+    background-color: #c3bfbc;
+    border-radius: 40px;
+}
+img.search-icon{
+    width: 16px;
+    height: 16px;
+    right: 18px;
+    top: 17px;
+}
+.navbar .nav-link{
+    font-size: 1.1rem;
+    color: #54524f;
+}
+.mainnav .nav-link{
+    margin: 0px 12px;
+}
+.navbar .nav-link:hover{
+    color: #e2a355;
+    transition: 0.3s;
+}
+.navbar .nav-link:active{
+    color: #e2a355;
+}
+
+
+/* BANNER */
+.banner-bg{
+    background:
+    url(../images/banner-top.png) left top/100% 133px no-repeat,
+    url(../images/banner-bottom3.png) left 102%/100% 200px no-repeat,
+    url(../images/banner-bg.png) 30% 24%/cover no-repeat;
+    height: 59rem;
+}
+.banner-section h1{
+    /* margin-top: 7.2rem; */
+    font-size: 78.67px;
+    font-weight: 800;
+    text-shadow: 3px -4px 5px #d1cecb;
+    color: #deb37e;
+    letter-spacing: 2px;
+    line-height:  4.8rem;
+}
+.banner-bg{
+    position: relative;
+}
+.banner-section{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.banner-section h2{
+    font-size: 63.67px;
+    font-weight: 800;
+    text-shadow: 3px -4px 5px #d1cecb;
+    color: #deb37e;
+    letter-spacing: 1px;
+    line-height: 3rem;
+}
+.banner-section h2 span{
+    font-size: 48px !important;
+}
+.banner-section h5{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.45rem;
+    letter-spacing: 8px;
+    color: #54524f;
+    /* padding-bottom: 17px; */
+    /* padding-top: 7px; */
+    padding: 10px 0px 17px 17px;
+}
+.banner-section .btn{
+    color: #776c64;
+    font-weight: 800;
+    font-size: 1.35rem;
+    border-radius: 29px;
+    background-color: #fefefd !important;
+    padding: 4px 33px;
+    transition: 0.3s;
+    margin-bottom: 5px;
+}
+.banner-section .btn:hover{
+    background-color: #DEB37E !important;
+    color: white;
+}
+.banner-section p{
+    color: #54524f;
+    font-size: 20.83px;
+    margin-top: 17px;
+}
+
+
+/* CARDS SECTION */
+.cards-section{
+    padding: 25px 0px 185px 0px;
+    background: url(../images/cards-bg.png) left bottom no-repeat;
+}
+.cards-section-top h2{
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    font-size: 62.5px;
+    color: #e2a355;
+}
+.cards-section-top p{
+    font-size: 27.08px;
+    color: #7f7770;
+    line-height: 35px;
+}
+.cards-content .text{
+    background-color: #7f7770;
+    width: 339px;
+    /* height: 227px; */
+    color: white;
+    padding: 16px;
+    transition: 0.6s;
+}
+.cards-content .box3 .img img{
+    height: 300.99px;
+    width: 339px;
+}
+.cards-content h3{
+    font-size: 29.73px;
+}
+.cards-content p{
+    font-size: 22.92px;
+}
+.cards-section .btn{
+    background-color: #7f7770;
+    border-radius: 30px;
+    font-weight: 800;
+    padding: 15px 70px;
+    transition: 0.3s;
+}
+.cards-section .btn:hover{
+    background-color:#38302a !important;
+}
+.cards-content a{
+    text-decoration: none;
+    color: white;
+}
+.cards-content .box:hover .text{
+    background-color:#534b45;
+
+}
+.myimg{
+    transition: 0.6s;
+}
+.box{
+    /* height: 477px; */
+    transition: 0.6s;
+    margin-bottom: 3.8rem;
+}
+.box:hover .text{
+    transform: translateY(-12%);
+}
+.box:hover .myimg{
+    filter: brightness(75%);
+
+}
+
+
+
+/* BOX SECTION */
+.box-section-1 .image{
+    background: url(../images/box-section-1-bg.png) right 37%/cover no-repeat;
+    height: 780px;
+}
+.box-section-2 .image{
+    background: url(../images/box-section-2-bg.png) right 37%/cover no-repeat;
+    height: 780px;
+}
+.box-section .content{
+    max-width: 720px;
+    padding: 0px 20px 0px 40px;
+}
+.box-section h2{
+    font-size: 58.33px;
+    font-weight: 600;
+}
+.box-section p{
+    font-size: 29.17px;
+    line-height: 37px;
+}
+.box-section .btn{
+    background-color: #e2a355;
+    font-weight: bold;
+    font-size: 29.17px;
+    border-radius: 37px;
+    padding: 14px 74px;
+    transition: 0.3s;
+}
+.box-section .btn:hover{
+    background-color:#534b43;
+}
+.box-section-2 .btn{
+    font-size: 23.15px;
+    padding: 17px 80px;
+}
+.box-section-2 .content-cover{
+    padding: 0px 55px 0px 0px;
+}
+
+.box-section-1 .content-cover{
+    background: #7f7770;
+}
+.box-section-2 .content-cover{
+    background: #deb37e;
+}
+
+
+/* HIKING SECTION */
+.hiking-section{
+    height: 765px;
+    padding: 7.4rem 10rem 0px 10rem;
+    background: rgba(130, 122, 116, 0.737) url(../images/hiking-section-bg.png) left 69%/545px 441px no-repeat;
+    position: relative;
+}
+.hiking-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/hiking-section-top.png) left top/100% 210px no-repeat, url(../images/explore-top.png) left 157%/100% 323px no-repeat;
+}
+.hiking-section h2{
+    font-weight: 600;
+    font-size: 58.33px;
+}
+.hiking-section p{
+    font-size: 29.17px;
+}
+.hiking-section .container{
+    position: relative;
+    z-index: 9;
+}
+
+
+/* EXPLORE SECTION */
+.explore-section{
+    height: 1100px;
+    background: url(../images/explore-mid.png) left center/cover no-repeat;
+    position: relative;
+    padding-top: 19rem;
+}
+.explore-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../images/explore-top.png) left -15%/100% 323px no-repeat,
+    url(../images/explore-bottom.png) left 112%/100% 211px no-repeat;
+}
+.explore-section h2{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 75px;
+    color: #deb37e;
+    text-shadow: 3px -4px 5px #aaadaf;
+}
+.explore-section span{
+    color: #54524f;
+}
+
+
+/* LITTLE CARDS SECTION */
+.little-cards-section{
+    padding: 5.5rem 0rem 7rem 0rem;
+}
+.little-cards-section h3{
+    font-weight: bold;
+    font-size: 33.33px;
+    color: #deb37e;
+}
+.little-cards-section p{
+    font-size: 18.75px;
+}
+/* .mycardscover{
+    animation: scroll 10s linear infinite;
+}
+@keyframes scroll{
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 3));
+    }
+  } */
+
+/* .mycardscover::-webkit-scrollbar {
+    display: none;
+}
+.mycardscover {
+-ms-overflow-style: none;  
+scrollbar-width: none;  
+} */
+
+
+
+/* QUOTE SECTION */
+.quote-section{
+    background: url(../images/quote-section-bg.png) right center/557px 574px no-repeat;
+    height: 557px;
+    padding: 6.5rem 10rem 0px 10rem;
+}
+.quote-section h2{
+    font-size: 100px;
+    line-height: 60px;
+}
+.quote-section p{
+    font-weight: 500;
+    font-size: 25px;
+}
+.quote-section h3{
+    font-size: 20.83px;
+    font-weight: 700;
+}
+
+
+/* SUBSCRIBE SECTION */
+.subscribe-section{
+    background-color: #deb37e;
+    height: 796px;
+    padding: 10rem 10rem 0px 10rem;
+    position: relative;
+}
+.subscribe-section::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: 
+    url(../images/sub-bg-top.png) left -24%/100% 210px no-repeat, 
+    url(../images/sub-bg-bottom.png) left 113%/100% 187px no-repeat;
+}
+.subscribe-section h2{
+    font-weight: 700;
+    color: white;
+    font-size: 75px;
+    margin-bottom: 40px;
+}
+.subscribe-section p{
+    color: #54524f;
+    font-size: 29.72px;
+    line-height: 38px;
+    margin-bottom: 67px;
+}
+.subscribe-section button{
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #54524f;
+    border-radius: 60px;
+    padding: 10px 40px;
+    transform: translateX(-10%);
+    border-color: #54524f;
+}
+.subscribe-section button:hover{
+    background-color: #393735;;
+}
+.subscribe-section input{
+    width: 407px;
+    border: none;
+    padding: 12px 36px 17px 28px;
+    border-radius: 60px 0px 0px 60px;
+}
+.subscribe-section .myinput{
+    position: relative;
+    z-index: 9;
+}
+.subscribe-section input:focus{
+    border: none;
+    outline: none;
+}
+.subscribe-section .container{
+    position: relative;
+    z-index: 99;
+}
+
+
+/* FOOTER SECTION */
+.footer-section{
+    min-height: 800px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: #7f7770 url(../images/sub-bg-bottom.png) left -9%/100% 187px no-repeat;
+    padding-top: 17rem;
+    position: relative;
+}
+.footer-section h3{
+    font-size: 31.6px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.footer-section p, .font-section li{
+    font-size: 23.7px;
+}
+.footer-section p{
+    line-height: 30px;
+}
+.footer-section .socials a{
+    margin-right: 6px;
+}
+.footer-section ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-section li{
+    margin-bottom: 9px;
+}
+.footer-section a{
+    text-decoration: none;
+    color: white;
+    transition: 0.11s;
+}
+.footer-section ul a:hover{
+    color:#2b241f;
+}
+
+
+
+
+
+@media screen and (max-width:768px) {
+.banner-section h1 {
+    font-size: 4rem;
+    line-height: 4.2rem;
+}
+.banner-section{
+    top: 47%;
+}
+
+.banner-section h5{
+    font-weight: 700;
+}
+.banner-section p {
+    padding: 0px 25px;
+}
+
+.navbar .container{
+    position: relative;
+}
+.navbar-collapse{
+    text-align: right;
+    position: absolute;
+    width: 100%;
+    top: 5.2rem;
+    right: 0px;
+    z-index: 999;
+    transition: 0.6s;
+}
+img.search-icon{
+    right: 64px;
+}
+.navbar-nav{
+    background-color: white;
+    height: 100vh;
+    padding: 0px 5px 22px 0px;
+}
+
+
+
+.box-section .image{
+    height: 400px;
+}
+.box-section .content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 42px;
+}
+.box-section-2 .content-cover{
+    padding: 0 15px;
+}
+.box-section h2{
+    font-size: 28px;
+    line-height: 43px;
+    margin-bottom: 26px !important;
+}
+.box-section p{
+    font-size: 21px;
+    letter-spacing: 1.5px;
+}
+.box-section .btn{
+    font-size: 21px;
+    border-radius: 18px;
+    margin-bottom: 61px;
+    margin-top: 11px !important;
+    padding: 9px 50px;
+}
+.hiking-section{
+    padding: 8.4rem 0rem 0rem 0rem;
+}
+.hiking-section p{
+    font-size: 21px;
+    letter-spacing: 1px;
+}
+.hiking-section h2{
+    font-size: 48px; 
+    padding-bottom: 9px !important;
+}
+.explore-section{
+    height: 50rem;
+    padding-top: 18rem;
+}
+.quote-section{
+    padding: 4.3rem 20px 0rem 20px;
+}
+.quote-section .container{
+    position: relative;
+    z-index: 99;
+}
+.quote-section p{
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 1.7rem;
+}
+.subscribe-section{
+    padding: 7.8rem 0rem 0rem 0rem;
+}
+.subscribe-section h2{
+    font-size: 59px;
+}
+.subscribe-section p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 44px;
+}
+.subscribe-section input{
+    width: 100%;
+    border-radius: 60px;
+}
+.subscribe-section button{
+    font-size: 22px;
+    margin-top: 21px;
+    transform: translateX(0);
+}
+.footer-section{
+    padding-top: 9rem;
+}
+.footer-section h3{
+    margin-bottom: 21px !important;
+}
+.footer-section p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.cards-section-top p{
+    font-size: 22px;
+    letter-spacing: 1.5px;
+}
+
+}
+
+
+.ham-nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ham-nav{
+    position: relative;
+}
+.ham-inner{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.ham-nav .search-cover{
+    padding-right: 0;
+
+}
+.ham-nav img.search-icon{
+    right: 24px;
+    width: 19px;
+    height: 19px;
+}
+.ham-nav input.search-bar{
+    width: 160px;
+    height: 35px;
+}
+.ham-nav a.nav-link{
+    letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+.banner-section{
+    top: 21%;
+    transform: translateY(0%);
+}
+h1.banner-title{
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    letter-spacing: 2px;
+}
+.banner-section h5 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 8px;
+    padding: 10px 0px 13px 0px;
+}
+.banner-section p {
+    margin-top: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+.banner-section .btn {
+    font-size: 1.25rem;
+    padding: 4px 33px;
+}
+.banner-bg {
+    background: 
+    url(../images/banner-top.png) left top/100% 133px no-repeat, 
+    url(../images/banner-bottom3.png) left 102%/100% 200px no-repeat, 
+    url(../images/banner-bg.png) 30% 24%/cover no-repeat;
+    height: 53rem;
+}
+.cards-section-top h2 {
+    font-size: 3.2rem;
+}
+.cards-section-top p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+.explore-section {
+    height: 50rem;
+    padding-top: 18rem;
+    background: url(../images/explore-mid.png) 56% center/cover no-repeat;
+}
+}
