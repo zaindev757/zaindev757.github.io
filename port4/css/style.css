@@ -1,0 +1,708 @@
+/* ADDING FONTS */
+@font-face {
+    font-family: 'montserrat-reg';
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url(../fonts/montserrat/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: 'montserrat-exbold';
+    src: url(../fonts/montserrat/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'bahn';
+    src: url(../fonts/bahnschrift/BAHNSCHRIFT.TTF);
+}
+@font-face {
+    font-family: 'lato';
+    src: url(../fonts/lato/Lato-Regular.ttf);
+}
+
+
+
+body{
+    background-color: aliceblue;
+}
+p{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+.pagesize{
+    max-width: 740px;
+    /* height: 59rem; */
+    position: relative;
+    background-color: #BCE3F1;
+}
+.pagesize::after{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 97.5%;
+    height: 97.5%;
+    border: 1px solid black;
+}
+.myzindex{
+    position: relative;
+    z-index: 88;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 35%;
+}
+.pagecontent{
+    padding-top: 50px;
+    padding-bottom: 45px;
+}
+.blue-text{
+    color: #0477BE;
+}
+.pageno{
+    color: #0477BE;
+    font-family: montserrat;
+    font-size: 0.81rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* BACKGROUND Page 1 */
+.background1{
+    width: 100%;
+    height: 100%;
+    background: 
+    url('../img/bgtoprightAsset\ 3.svg') right top/20% no-repeat,
+    url('../img/bgbottomleftAsset\ 5.svg') left bottom/23% no-repeat;
+}
+
+
+
+
+
+
+
+
+/* PAGE 1 */
+.title{
+    padding-top: 20px;
+    font-family: montserrat-reg;
+    font-size: 44px;
+    line-height: 50.4px;
+}
+.title span{
+    font-family: montserrat-bold;
+}
+.description{
+    font-family: montserrat-exbold;
+    font-size: 32px;
+    line-height: 38.4px;
+    padding-top: 28px;
+}
+.textbox3{
+    padding: 17px 0px 0px 0px;
+}
+.textbox3 p{
+    font-family: bahn;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 0;
+}
+.textbox3 .name{
+    font-family: montserrat-exbold;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+}
+
+.imagebox1{
+    width: 82%;
+}
+.textbox4{
+    padding-top: 14px;
+    overflow: hidden;
+}
+.contactbox{
+    position: relative;
+    left: 87px;
+    padding-top: 84px;
+}
+.contactbox img{
+    width: 20px;
+    position: relative;
+    bottom: 2px;
+    right: 12px;
+}
+.contactbox p{
+    font-family: lato;
+    font-size: 20px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY - RESPONSIVE STYLING FOR PHONE */
+@media only screen and (max-width: 550px){
+.background{
+    background: 
+    url('../img/bgtoprightAsset\ 3.svg') right top/32% no-repeat,
+    url('../img/bgbottomleftAsset\ 5.svg') left bottom/44% no-repeat;
+}
+.logo {
+    width: 66%;
+}
+.title {
+    padding-top: 20px;
+    font-size: 30px;
+    line-height: 32.4px;
+}
+.description {
+    font-size: 22px;
+    line-height: 27.4px;
+    padding-top: 16px;
+}
+.textbox3 p {
+    font-size: 18px;
+    line-height: 25px;
+}
+.textbox3 .name {
+    font-size: 17px;
+}
+.pagecontent {
+    padding-top: 54px;
+    padding-bottom: 36px;
+}
+.contactbox {
+    position: static;
+    padding-top: 3px;
+    padding-left: 24px;
+    padding-bottom: 19px;
+}
+.contactbox p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.imagebox1 {
+    width: 63%;
+}
+.contactbox img {
+    width: 17px;
+
+}
+.background1 {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bgtoprightAsset\ 3.svg) right top/28% no-repeat, url(../img/bgbottomleftAsset\ 5.svg) left bottom/61% no-repeat;
+}
+.textbox4 {
+    padding-top: 16px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE 2 */
+.page2{
+    background-color: white;
+    padding-bottom: 75px;
+}
+.heading span{
+    color: #0477BE;
+    font-family: montserrat-exbold;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.heading{
+    color: #0477BE;
+    font-family: montserrat-exbold;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.bluefill-heading{
+    background-color: #0477BE;
+    color: white;
+    padding: 8px 2rem 8px 2rem;
+    max-width: 17rem;
+    text-align: center;
+    font-family: montserrat-bold;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.subheading{
+    color: #0477BE;
+    font-family: montserrat-exbold;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+.explainbox{
+    border: 3px solid #2E3192;
+    padding: 8px 6px 16px 8px;
+    margin: 0px 24px 0px 3px;
+}
+.imgcover img{
+    width: 91px;
+}
+.myimages{
+    padding: 0px 47px;
+}
+.myimgcover{
+    width: 88%;
+}
+.myimgcover img{
+    height: 100%;
+    width: 100%;
+}
+.myimgcover p{
+    text-align: center;
+    font-family: bahn;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+span.particulars{
+    width: 7rem;
+    display: inline-block;
+    /* background-color: aqua; */
+    text-align: start;
+}
+.page2 .content1{
+    padding-top: 50px;
+}
+.page2 .content1 .heading{
+    padding-bottom: 17px;
+}
+.page2 .subcontent span{
+    font-family: bahn;
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+    
+}
+.page2 .content1 .subcontent{
+    padding-left: 6rem;
+    padding-bottom: 1rem;
+}
+.page2 .content1 .blank{
+    padding-left: 2rem;
+}
+.page2 .bluefill-heading{
+    margin-top: 33px;
+    margin-bottom: 24px;
+}
+.mycontentboxes{
+    padding: 30px 58px;
+}
+.content-box {
+    margin-bottom: 34px;
+}
+.page2{
+    position: relative;
+}
+.page2 .imgshield{
+    position: absolute;
+    right: 88px;
+    top: 73px;
+}
+
+
+
+
+
+
+
+/* MEDIA QUERY - RESPONSIVE STYLING FOR PHONE */
+@media only screen and (max-width: 550px){
+.page2 .imgshield img{
+    width: 70px;
+}
+.page2 .imgshield{
+    top: 60px;
+    right: 10px;
+}
+.page2 .content1 .subcontent{
+    padding-left: 14px;
+    
+}
+.page2 .subcontent span{
+    font-size: 1.1rem;
+    
+}
+.page2 .content1 .blank{
+    padding-left: 0;
+}
+.page2 .subcontent1{
+    padding-top: 10px;
+}
+.page2 .content1 h2 span{
+    display: block;
+    text-align: start;
+}
+.page2 .content1 .heading{
+    padding-top: 14px;
+    padding-left: 16px;
+}
+.myimages {
+    padding: 0;
+}
+.mycontentboxes {
+    padding: 30px 8px;
+    text-align: center;
+}
+.explainbox {
+    border: 1.5px dashed #2E3192;
+    margin: 0px 3px 0px 3px;
+}
+.myimgcover img {
+    width: 117%;
+}
+.content-box{
+    margin-bottom: 30px;
+}
+.page2{
+    padding-bottom: 40px;
+}
+}
+@media only screen and (min-width:551px) and (max-width:730px){
+	.imgcover img {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE 3 */
+.page3{
+    background-color: white;
+    padding-top: 83px;
+    padding-bottom: 70px;
+}
+.page3 .bluefill-cover{
+    margin-bottom: 34px;
+}
+.page3 .myimages {
+    margin-bottom: 33px;
+}
+.myimgcover p{
+    padding-top: 7px;
+}
+.page3 .icover{
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE 4 */
+.page4{
+    background-color: white;
+    padding-top: 83px;
+    padding-bottom: 70px;
+}
+.page4 .bluefill-cover{
+    margin-bottom: 40px;
+}
+.page4 .myimages {
+    margin-bottom: 28px;
+}
+.page4 .myimgcover p{
+    padding-top: 13px;
+    font-size: 1.14rem;
+}
+.page4 .myimages {
+    padding: 0px 51px;
+}
+.page4 .myimgcover{
+    width: 100%;
+}
+.page4 .myimgcover img{
+    height: auto;
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PAGE 5 */
+.page5{
+    background-color: white;
+    padding-top: 83px;
+    padding-bottom: 70px;
+}
+.page5 .bluefill-cover{
+    margin-bottom: 40px;
+}
+.page5 .myimages {
+    margin-bottom: 28px;
+}
+.page5 .myimgcover p{
+    padding-top: 13px;
+    font-size: 1.14rem;
+}
+.page5 .myimages {
+    padding: 0px 51px;
+}
+.page5 .myimgcover{
+    width: 100%;
+}
+.page5 .myimgcover img{
+    height: auto;
+    width: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+/* PAGE 6 */
+.page6{
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 84px;
+}
+img.signature{
+    width: 291px;
+}
+.referralbox h3 span{
+    font-family: bahn;
+    font-weight: 900;
+    font-size: 1.7rem;
+    line-height: 1.5rem;
+}
+.page6 .mycontentboxes {
+    padding: 11px 58px 0px 58px;
+}
+.referralbox h2{
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+.referralbox{
+    padding: 0px 60px 31px 60px;
+}
+.referralbox h3{
+    margin-bottom: 14px;
+}
+.referralbox .head{
+    width: 140px;
+    display: inline-block;
+}
+
+.signoff{
+    padding: 0px 60px;
+}
+.signoff .head1, .signoff .head2{
+    font-family: bahn;
+    font-size: 0.94rem;
+    line-height: 0.8rem;
+}
+.signoff .head1{
+    font-weight: 900;
+}
+.signoff .head3{
+    font-size: 1.13rem;
+    line-height: 1.35rem;
+    font-family: bahn;
+    font-weight: 900;
+    margin: 40px 0px 14px 0px;
+}
+.signoff .contact{
+    font-family: bahn;
+    font-size: 0.94rem;
+    line-height: 1.13rem;
+}
+.signoff img{
+    margin-top: 16px;
+}
+.signoff{
+    position: relative;
+}
+img.pg6icon{
+    width: 161px;
+    height: 158px;
+    position: absolute;
+    right: 10rem;
+    bottom: 0.44rem;
+}
+.page6 .pageno{
+    margin-top: 22px;
+}
+.page6{
+    padding-bottom: 56px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY - RESPONSIVE STYLING FOR PHONE */
+@media only screen and (max-width: 550px){
+.page6 .mycontentboxes {
+    padding: 7px 8px;
+    text-align: center;
+}
+.page6 {
+    padding-top: 70px;
+}
+.referralbox h2 {
+    margin-top: 20px;
+}
+.referralbox {
+    padding: 0px 10px 31px 16px;
+}
+.referralbox .head {
+    width: 100px;
+}
+.referralbox h3 span {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+}
+.signoff {
+    padding: 0px 16px;
+}
+img.pg6icon {
+    display: none;
+}
+img.signature {
+    width: 240px;
+}
+.page3 .icover{
+    width: 95%;
+}
+.page4 .myimages {
+    padding: 0;
+}
+.page5 .myimages {
+    padding: 0;
+}
+}
+
+@media only screen and (min-width:551px) and (max-width:730px){
+img.pg6icon {
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
